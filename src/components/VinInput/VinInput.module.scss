@@ -1,0 +1,29 @@
+.input_container{
+  margin-top: 40px;
+    text-align: center;
+    color: rgb(62, 61, 61);
+    .input{
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .icon{
+        
+            position: relative;
+            top: 8px;
+            margin-left: 5px;
+    
+    }
+    .btn{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(173, 169, 169);
+        cursor: pointer;
+       
+    }
+    .message{
+margin-top: 10px;
+color: rgb(164, 48, 48);
+font-weight: 600;
+    }
+}

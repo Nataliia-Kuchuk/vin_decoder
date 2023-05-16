@@ -1,0 +1,43 @@
+.container{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+   
+    .link_navigation{
+        text-decoration: none;
+        color: gray;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 10px;
+    }
+     .table{
+        border-collapse: collapse;
+        text-align: center;
+        margin: 20px auto 0 ;
+      
+         td, th{
+        border: 1px solid gray;
+        padding: 10px;
+        width: 200px;
+        
+      
+    }
+    th{
+        color: rgb(109, 110, 108);
+        font-weight: 700;
+        background-color: rgb(228, 247, 159);
+    }
+    .elementname{
+        background-color: rgb(205, 227, 163);
+    }
+    .name{
+        background-color: rgb(232, 241, 193);
+    }
+   
+    }
+    .text{
+        margin-top: 20px;
+    }
+}

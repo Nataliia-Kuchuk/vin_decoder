@@ -1,0 +1,23 @@
+.container_description{
+    text-align: center;
+    margin-top: 40px;
+    .table{
+        border-collapse: collapse;
+        display: flex;
+        justify-content: center;
+         td{
+        border: 1px solid gray;
+        padding: 10px;
+        width: 200px;
+        
+      
+    }
+    }
+    .variable{
+background-color: rgb(242, 252, 183);
+        }
+        .value{
+         background-color: rgb(243, 250, 203);   
+        }
+
+}

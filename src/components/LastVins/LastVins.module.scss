@@ -1,0 +1,22 @@
+.container_vins{
+    margin-top: 40px;
+    text-align: center;
+       color: rgb(62, 61, 61);
+      
+      ul{
+        margin: 5px;
+       
+        display: flex;
+        justify-content: center;
+      } 
+    .list_item{
+        list-style: none;
+        border: 1px solid gray;
+        padding: 10px 30px;
+        cursor: pointer;
+        background-color: rgb(240, 248, 220);
+        border-radius: 5px;
+       
+       
+    }
+}
