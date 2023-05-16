@@ -13,7 +13,7 @@ const RoutesPage = () => {
   return (
     <Suspense fallback={<Loader />}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/vin_decoder/" element={<Home />} />
         <Route path="/variables" element={<VariablesList />} />
         <Route path="variables/:id" element={<VariableId />} />
       </Routes>
