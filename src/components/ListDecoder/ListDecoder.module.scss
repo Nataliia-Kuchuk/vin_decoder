@@ -9,6 +9,7 @@
         border: 1px solid gray;
         padding: 10px;
         width: 200px;
+           word-break: break-all;
         
       
     }
@@ -19,5 +20,26 @@ background-color: rgb(242, 252, 183);
         .value{
          background-color: rgb(243, 250, 203);   
         }
-
+@media(max-width: 500px) {
+    .table{
+       
+         td{
+   
+        width: 150px;
+        
+      
+    }
+    } 
+}
+@media(max-width: 390px) {
+    .table{
+    
+         td{
+       
+        width: 120px;
+        
+      
+    }
+    } 
+}
 }
